@@ -27,8 +27,7 @@ Week 1 with HTML And CSS
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://tadeoz24.github.io/QR-code-component/]
 
 ## My process
 
