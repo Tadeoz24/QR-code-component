@@ -1,0 +1,201 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+div,
+nav,
+section,
+span,
+ul,
+li,
+a,
+header,
+footer {
+  box-sizing: border-box;
+}
+
+.container {
+  align-items: center;
+  background: #d5e1ef;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.container_rectangle {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 20px;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  display: flex;
+  flex-direction: column;
+  height: 497px;
+  justify-content: center;
+  padding: 16px;
+  width: 320px;
+}
+.container_rectangle_qr {
+  background-image: url(./images/image-qr-code.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  height: 288px;
+  width: 288px;
+}
+
+.container_rectangle_header {
+  height: 56px;
+  margin: 24px 16px 24px 16px;
+  width: 288px;
+}
+
+.container_rectangle_header p {
+  color: #1f314f;
+  font-family: "Outfit";
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: center;
+}
+
+.container_rectangle_footer {
+  height: 57px;
+  margin-bottom: 16px;
+  margin-left: 32px;
+  margin-right: 32px;
+  width: 256px;
+}
+
+.container_rectangle_footer p {
+  color: #7d889e;
+  font-family: "Outfit";
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.1875px;
+  line-height: 19px;
+  text-align: center;
+}
